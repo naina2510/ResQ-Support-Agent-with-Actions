@@ -1,0 +1,15 @@
+# Never commit secrets
+.streamlit/secrets.toml
+.env
+
+# Virtual environments
+.venv/
+venv/
+
+# Generated at runtime
+faiss_index/
+data/tickets.xlsx
+
+# Python
+__pycache__/
+*.pyc
