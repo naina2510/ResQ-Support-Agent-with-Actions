@@ -10,6 +10,8 @@ Built with LangChain (tool-calling agent), Google Gemini, FAISS and Streamlit.
 Gemini handles both chat and embeddings, so nothing large is downloaded locally
 and the install stays small. Groq and OpenAI can also be selected in the sidebar.
 
+##LIVE LINK - https://resq-support-agent-with-actions-nmhi9k8lraelhgsyagvd4r.streamlit.app/
+
 ## How it works
 
 ```
