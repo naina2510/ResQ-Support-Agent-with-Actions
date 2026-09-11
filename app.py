@@ -316,7 +316,7 @@ def build_agent(provider_name, key):
     elif provider_name.startswith("Groq"):
         from langchain_groq import ChatGroq
 
-        llm = ChatGroq(model="llama-3.3-70b-versatile", temperature=0, api_key=key)
+        llm = ChatGroq(model="openai/gpt-oss-120b", temperature=0, api_key=key)
     else:
         from langchain_openai import ChatOpenAI
 
